@@ -1,5 +1,5 @@
 {
-  "name"       : "supporter",
+  "name"       : "supporter/user",
   "version"    : "1.0.0",
   "type"       : "project",
   "description": "Englobar a regra de negócio do usuário",
@@ -14,7 +14,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Supporter\\": "src/",
+      "Supporter\\User\\": "src/",
       "classmap\\": [
         "src"
       ]
