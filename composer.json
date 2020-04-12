@@ -1,0 +1,23 @@
+{
+  "name"       : "supporter",
+  "version"    : "1.0.0",
+  "type"       : "project",
+  "description": "Englobar a regra de negócio do usuário",
+  "keywords"   : ["user", "member-user"],
+  "authors": [
+    {
+      "name"    : "Juliano Fritz Basso"
+    }
+  ],
+  "require": {
+    "php": ">=7.4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Supporter\\": "src/",
+      "classmap\\": [
+        "src"
+      ]
+    }
+  }
+}
